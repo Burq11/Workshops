@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Monofett&amp;display=swap" rel="stylesheet">
+    <title>JavaScript example</title>
+    <script type="text/javascript" src="./index.js" defer=""></script>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+
+  <body>
+    <h1>
+      <center>Easy Calculator</center>
+    </h1>
+    <p> </p>
+    <center>This easy Calculator can add, subtract, multiply, divide as well as calculate the modulo of a number. Just enter two values and select the option you want to perform. After some background magic you'll see the result below </center>
+    <p></p>
+    <div>
+      <center>
+        <input id="numX" type="number" placeholder="Enter an X value">
+        <select id="select-function">
+          <option value="add">+</option>
+          <option value="subtract">-</option>
+          <option value="multiply">x</option>
+          <option value="divide">÷</option>
+          <option value="mod">%</option>
+        </select><input id="numY" type="number" placeholder="Enter an Y value">
+      </center>
+    </div>
+    <div>
+      <center>
+        <button id="Calculate" onclick="buttonPushed()">Calculate</button>
+        <p id="result"></p>
+      </center>
+    </div>
+
+  </body>
+
+</html>

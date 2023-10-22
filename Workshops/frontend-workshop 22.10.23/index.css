@@ -1,0 +1,40 @@
+body{
+      font-family: 'Times', sans-serif; /* Use a clean font */
+      background-color: #c2b7b7;  /*Soft background color */
+      height: 100vh; /* Full viewport height */
+      display: flex;
+      justify-content: center; /* Horizontal centering */
+      align-items: center; /* Vertical centering */
+      flex-direction: column;
+    }
+
+h1{
+  font-family: 'Monofett', monospace;
+  font-size: 4.5rem;
+}
+
+h1, p{
+      text-align: center; /* Centered text */
+    }
+
+div {
+      margin-top: 20px; /* Add some space between the divs */
+    }
+input, select, button {
+            padding: 10px 15px; /* Padding for better appearance and usability */
+            margin: 5px; /* Some space between the elements */
+            border: 1px solid #ccc; /* Border for definition */
+            border-radius: 5px; /* Rounded corners for a softer appearance */
+        }
+
+ button {
+            background-color: #007BFF; /* Button color */
+            color: #fff; /* Button text color */
+            cursor: pointer; /* Hand cursor on hover */
+            transition: background-color 0.3s; /* Smooth transition for hover effect */
+        }
+
+button:hover {
+            background-color: #0056b3; /* Darker shade for hover effect */
+        }
+
